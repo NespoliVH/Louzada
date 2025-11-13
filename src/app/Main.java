@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         PizzariaService pizzaria = new PizzariaService();
-        System.out.println("===== 🍕 BEM-VINDO À PIZZARIA JAVA DELÍCIA 🍕 =====");
+        System.out.println("  BEM-VINDO À PIZZARIA JAVA DELÍCIA  ");
 
         // --- REQUISITO 1: Cadastro de Sabores (Set) ---
         System.out.println("\n===== TAREFA 1: Cadastro de Sabores (Set) =====");
@@ -71,7 +71,7 @@ public class Main {
 
         // --- Simulando Entregas (Processando as filas) ---
         // A pizzaria sempre processa a fila VIP primeiro.
-        System.out.println("\n--- 🛵 PROCESSANDO ENTREGAS 🛵 ---");
+        System.out.println("\n---  PROCESSANDO ENTREGAS  ---");
         System.out.println("--- Processando VIPs (PriorityQueue) ---");
         pizzaria.processarProximaEntregaPrioritaria(); // Deve sair o p4 (10 min)
         pizzaria.processarProximaEntregaPrioritaria(); // Deve sair o p6 (15 min)
@@ -103,4 +103,5 @@ public class Main {
 
         System.out.println("\n===== FIM DA SIMULAÇÃO =====");
     }
+
 }
